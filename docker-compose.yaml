@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  beaker:
+    build:
+      context: .
+      dockerfile: ./docker/beaker/Dockerfile
+    command: tail -f /dev/null
+    volumes:
+      - ./docker/beaker/src:/usr/src/app
+      - /usr/src/app/venv
