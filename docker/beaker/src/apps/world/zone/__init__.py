@@ -1,2 +1,2 @@
 from .zone_data import ZoneData
-from .zone import app as Zone
+from .zone import app as Zone, bootstrap

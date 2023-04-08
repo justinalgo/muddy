@@ -1,1 +1,1 @@
-from .zone import Zone
+from .zone import Zone, bootstrap as zone_bootstrap
